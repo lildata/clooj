@@ -809,7 +809,7 @@
     (proxy [Thread$UncaughtExceptionHandler] []
       (uncaughtException [thread exception]
                        (println thread) (.printStackTrace exception))))
-  (UIManager/setLookAndFeel (UIManager/getSystemLookAndFeelClassName))
+  ;(UIManager/setLookAndFeel (UIManager/getSystemLookAndFeelClassName))
   (let [app (create-app)]
     (reset! current-app app)
     (make-menus app)
