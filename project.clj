@@ -7,6 +7,6 @@
   :dependencies [[org.clojure/clojure "1.9.0-alpha14"]
                  [clj-inspector "0.0.12"]
                  [slamhound "1.5.5"]
-                 [com.cemerick/pomegranate "3.1"]
+                 [com.cemerick/pomegranate "0.3.1"]
                  [com.fifesoft/rsyntaxtextarea "2.6.1"]
                  [org.clojure/tools.nrepl "0.2.12"]])
